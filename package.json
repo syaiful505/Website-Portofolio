@@ -1,0 +1,22 @@
+{
+  "name": "website-portofolio",
+  "version": "1.0.0",
+  "description": "Membuat website portofolio menggunakan bootstrap  Langkah pertama Download bootstrap zipnya dulu pada halaman https://getbootstrap.com/docs/3.3/getting-started/#download  extrack dan ubah namanya menjadi portfolio atau sesuka kalian  lalu buka kode editornya dan open folder yang tadi di ekstrak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syaiful505/Website-Portofolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syaiful505/Website-Portofolio/issues"
+  },
+  "homepage": "https://github.com/syaiful505/Website-Portofolio#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  }
+}
