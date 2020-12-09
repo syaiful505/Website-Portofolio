@@ -3,10 +3,11 @@
     border: 5px solid #666;
 }
 
-.about hr {
+hr {
     width: 250px;
     border-top: 3px solid #666;
 }
+/* hr nya adalah about apabila ingin semua haus semua jadi semua hr bernilai di css ini */
 
 sectoin{
     min-height: 600px;
