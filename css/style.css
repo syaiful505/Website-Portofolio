@@ -13,3 +13,7 @@ sectoin{
     min-height: 600px;
 }
 /* membuat konten atau sectionya tidak terlalu dempet atau nambah */
+
+.portfolio {
+    background-color: #666;
+}
