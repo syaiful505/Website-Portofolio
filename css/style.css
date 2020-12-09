@@ -7,3 +7,8 @@
     width: 250px;
     border-top: 3px solid #666;
 }
+
+sectoin{
+    min-height: 600px;
+}
+/* membuat konten atau sectionya tidak terlalu dempet atau nambah */
