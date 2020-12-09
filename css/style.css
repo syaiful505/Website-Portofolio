@@ -26,6 +26,9 @@ sectoin{
     background-color: #666;
 }
 
+.contack {
+    min-height: 800px;
+}
 
 footer {
     position: absolute;
