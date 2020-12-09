@@ -5,5 +5,5 @@ $('.page-scroll').on('click', function(){
     var tujuan = $(this).attr('href');
     // tangkap elemen ybs
     var elemenTujuan = $(tujuan);  // cara membacanya variabel elemenhref jqueri ambilkan saya tujuan yaitu href
-    console.log(elemenTujuan);
+    console.log(elemenTujuan.offset().top);
 });
