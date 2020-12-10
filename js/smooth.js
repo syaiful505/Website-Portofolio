@@ -10,5 +10,5 @@ $('.page-scroll').on('click', function(e){
         scrollTop: elemenTujuan.offset().top - 50
     }, 1250, 'easeInOutExpo');
     e.preventDefault();
-    
+    // jquery tolong ambilkan saya emelen html body kalau hanya body dia stuck di e.preven
 });
