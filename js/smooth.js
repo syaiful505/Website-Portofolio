@@ -12,3 +12,14 @@ $('.page-scroll').on('click', function(e){
     e.preventDefault();
     // jquery tolong ambilkan saya emelen html body kalau hanya body dia stuck di e.preven
 });
+
+// parallax
+$(window).scroll(function(){
+    var wScroll = $(this).scrollTop();
+    
+    $('.jumbotron img').css({
+        'transform' : 'translate(0px, '+ wScroll/4 +'%)'
+    });
+    //jquery tolong ambilkan saya img yg adal didalam jumbotron lalu ubah file cssnya
+    //properti css transformasi pergerakanya translate koordinat sumbu x(horzntl 0px) sumbu y keatas bawah menambahkan operator penggabung string beri tanda plus lalu dikasi persen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ')
+});
