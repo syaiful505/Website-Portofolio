@@ -22,6 +22,12 @@ body {
     border: 5px solid #eaeaea;
 }
 
+.jumbotron h1, .jumbotron p {
+    /* jumbotron yang ada di h1 dan jumbotron yang ada di paragraf yg ada di dalam jumbotron*/
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    /* ex offset bayangan kanan bayangan kebawah blur 10px kasih warna hitam tapi transparan opacity 0.5 */
+}
+
 hr {
     width: 250px;
     border-top: 3px solid #666;
