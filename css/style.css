@@ -41,6 +41,21 @@ sectoin{
 }
 /* membuat konten atau sectionya tidak terlalu dempet atau nambah */
 
+.pKiri, .pKanan {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+}
+
+.pKanan {
+    transform: translate(50px, 0);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
 .portfolio {
     background-color: #666;
 }

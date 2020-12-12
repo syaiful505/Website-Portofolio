@@ -14,6 +14,11 @@ $('.page-scroll').on('click', function(e){
 });
 
 // efek parallax
+// about
+$(window).on('load', function(){
+    $('.pKiri, .pKanan').addClass('pMuncul');
+});
+// karena tiak menyimpan pada scroll namun pada saat halaman dibuka
 $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
     
