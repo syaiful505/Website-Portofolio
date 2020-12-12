@@ -8,9 +8,12 @@ body {
 }
 
 .jumbotron {
+    height: 400px;
     background-image: url('../img/jumbotron.jpg'); // cara keluar folder css ke folder image pakai url dan seterusnya
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
 }
 
 .jumbotron img {
