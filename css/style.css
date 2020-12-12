@@ -43,12 +43,12 @@ sectoin{
 
 .pKiri, .pKanan {
     opacity: 0;
-    transform: translate(-50px, 0);
+    transform: translate(-50px, 0) rotate(15deg);
     transition: 1s;
 }
 
 .pKanan {
-    transform: translate(50px, 0);
+    transform: translate(50px, 0) rotate(-15deg);
 }
 
 .pKiri.pMuncul, .pKanan.pMuncul {
