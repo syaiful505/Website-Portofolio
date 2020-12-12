@@ -32,9 +32,17 @@ $(window).scroll(function(){
 
     // portfolio
     if( wScroll > $('.portfolio').offset().top - 250 ) {
-        $('.portfolio .thumbnail').addClass('muncul');
+        $('.portfolio .thumbnail').each(function(i){
+            setTimeout(function(){
+                $('.portfolio .thumbnail').eq(i).addClass('muncul');
+            }, 300 * (i+1));
+        // jqueri tolong carikan thumbnail didalam portfolio lalu pisah tiap tiap thumbnail dan berikan fungsi settimeout yang berfungsi
+        // eq elemen ke berapa i atau index
+        // lalu lakukan sesuatu jqueri tolong carikan portfolio lalu thumbnail setelah ketemu pada saat ketinggian tertentu tadi tambahin kelas baru 'muncul'
+        // set timer 300 dikalikan i namun index dimulai dari 0 maka +1 untuk
+        // fungsi ini untuk memunculkan gambar satu persatu dengan rentang waktu tertentu
+        });
     }
     // jika wscroll lebih besar dari jquery mencari portfolio lalu cari offset dari atas
             // kalau misalkan munculnya di area tertenu kasih .top - 200px misal
-    // lalu lakukan sesuatu jqueri tolong carikan portfolio lalu thumbnail setelah ketemu pada saat ketinggian tertentu tadi tambahin kelas baru 'muncul'
 });
