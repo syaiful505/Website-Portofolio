@@ -14,11 +14,12 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 -100px;
+    color: #eaeaea;
 }
 
 .jumbotron img {
     width: 200px;
-    border: 5px solid #666;
+    border: 5px solid #eaeaea;
 }
 
 hr {
