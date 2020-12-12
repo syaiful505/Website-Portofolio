@@ -13,7 +13,7 @@ $('.page-scroll').on('click', function(e){
     // jquery tolong ambilkan saya emelen html body kalau hanya body dia stuck di e.preven
 });
 
-// parallax
+// efek parallax
 $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
     
@@ -29,4 +29,12 @@ $(window).scroll(function(){
     $('.jumbotron p').css({
         'transform' : 'translate(0px, '+ wScroll/1.2 +'%)'
     });
+
+    // portfolio
+    if( wScroll > $('.portfolio').offset().top - 250 ) {
+        $('.portfolio .thumbnail').addClass('muncul');
+    }
+    // jika wscroll lebih besar dari jquery mencari portfolio lalu cari offset dari atas
+            // kalau misalkan munculnya di area tertenu kasih .top - 200px misal
+    // lalu lakukan sesuatu jqueri tolong carikan portfolio lalu thumbnail setelah ketemu pada saat ketinggian tertentu tadi tambahin kelas baru 'muncul'
 });

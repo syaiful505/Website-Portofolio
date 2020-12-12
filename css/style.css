@@ -45,6 +45,13 @@ sectoin{
     background-color: #666;
 }
 
+.portfolio .thumbnail{
+    opacity: 0;
+}
+
+.portfolio .thumbnail.muncul{
+    opacity: 1;
+}
 .contack {
     min-height: 800px;
 }
