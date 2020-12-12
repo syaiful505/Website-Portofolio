@@ -47,10 +47,13 @@ sectoin{
 
 .portfolio .thumbnail{
     opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
 }
 
 .portfolio .thumbnail.muncul{
     opacity: 1;
+    transform: translate(0,0);
 }
 .contack {
     min-height: 800px;
